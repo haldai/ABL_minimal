@@ -1,4 +1,4 @@
-#Prerequisites
+# Prerequisites
 
 __Hardware requirement__: The example works on my ultrabook (LG Gram Style 2023 with i7-1360P) under [Arch Linux](https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5), so theoretically, the codes provided work on any system __without__ requirement of dedicated GPUs (i.e., an Nvidia or AMD GPU). 
 
