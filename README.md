@@ -1,4 +1,4 @@
-# Prequisites
+#Prerequisites
 
 __Hardware requirement__: The example works on my ultrabook (LG Gram Style 2023 with i7-1360P) under [Arch Linux](https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5), so theoretically, the codes provided work on any system __without__ requirement of dedicated GPUs (i.e., an Nvidia or AMD GPU). 
 
@@ -35,7 +35,7 @@ __System requirement__: I have only tested under Linux, but with Python 3's virt
 2. `mnist_sum.pl` is the prolog file to abduce two digits given the sum. Try it with Prolog: `consult('mnist_sum.pl').` and then `abduce([X,Y],13).` (Don't forget the period symbol "`.`" and type "`;`" to see more answers).
 3. `mnist_sum.ipynb` is a self-explained notebook for the simple MNIST Sum task.
 
-# Your Task
+# Task
 
 1. Try to train a pure neural network to learn the MNIST Sum task.
 2. Compare your method with the Abductive Learning algorithm, in two aspects:
@@ -48,7 +48,7 @@ __Hint__: You can try different types of neural networks, even different combina
 1. CNN encoder for perception, MLP to calculate the sum;
 2. CNN encoder for perception, LSTM or other types of RNNs, even Transformers to calculate the sum;
 
-# Your Task (simple version)
+# Task (simple version)
 
 For students who are not very good at coding, you could try these things:
 
