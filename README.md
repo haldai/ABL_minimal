@@ -28,6 +28,11 @@ __System requirement__: I have only tested under Linux, but with Python 3's virt
    # Install dependencies
    pip3 install -r requirements.txt
    ```
+6. The [PySwip](https://github.com/yuce/pyswip) package in PyPI sometimes are out-dated, you may want to install the master branch from its github repo:
+
+   ```shell
+   pip install git+https://github.com/yuce/pyswip@master#egg=pyswip
+   ```
 
 # About the Codes
 
